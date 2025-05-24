@@ -7,6 +7,8 @@ const app = express();
 
 app.use(bodyParser.json());
 
+
+//added some comments
 app.use(eventRoutes);
 
 app.listen(process.env.PORT);
